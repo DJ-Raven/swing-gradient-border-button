@@ -23,19 +23,19 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="265" max="-2" attributes="0"/>
-              <Component id="buttonGradient1" pref="318" max="32767" attributes="0"/>
-              <EmptySpace min="-2" pref="285" max="-2" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="195" max="32767" attributes="0"/>
+              <Component id="buttonGradient1" min="-2" pref="490" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="221" max="-2" attributes="0"/>
-              <Component id="buttonGradient1" pref="54" max="32767" attributes="0"/>
-              <EmptySpace min="-2" pref="305" max="-2" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="213" max="-2" attributes="0"/>
+              <Component id="buttonGradient1" min="-2" pref="70" max="-2" attributes="0"/>
+              <EmptySpace pref="305" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -43,9 +43,12 @@
   <SubComponents>
     <Component class="main.ButtonGradient" name="buttonGradient1">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/main/icon.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Gradient Button"/>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="sansserif" size="18" style="1"/>
+          <Font name="sansserif" size="48" style="0"/>
         </Property>
       </Properties>
     </Component>
